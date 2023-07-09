@@ -72,7 +72,50 @@
     echo strrev($a);
     echo strpos('Toriqul Loves PHP', 'PHP');
     echo str_replace('PHP', 'Laravel', 'Toriqul Loves PHP');
-    echo ("<br>".rand(10, 100));
+    echo ("<br>" . rand(10, 100));
+
+    #constant
+
+    define("university", "<br>Jahangirnagar university"); //case insensitive true
+    echo university;
+
+    define("FriendsName", ["Sakib", "Tomal", "Mamun", "Jisan"]);
+    echo ("<br>" . FriendsName[1]);
+
+    #operators
+    $x = 3;
+    $y = 4;
+    echo "<br>" . $x ** $y;
+    echo "<br>";
+
+    $x = 5;
+    $y = 10;
+    echo ($x <=> $y);
+    echo "<br>";
+
+    $x = 3;
+    $y = 3;
+    echo ($x <=> $y);
+    echo "<br>";
+
+    $x = 3;
+    $y = 2;
+    echo ($x <=> $y);
+    echo "<br>";
+
+    echo $x++ . "<br>"; //3
+    echo ++$x . "<br>"; //5
+    echo $x-- . "<br>"; //5
+    echo --$x . "<br>"; //3
+
+    $text1 = 'Toriqul';
+    $text2 = ' Islam';
+    echo $text1 . $text2; //concatenation
+    echo "<br>";
+    echo $text1 .= $text2; //concatenation+assign
+    echo "<br>";
+    echo $text1; // Toriqul islam
+    echo "<br>";
 
     ?>
 
