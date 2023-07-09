@@ -8,7 +8,7 @@
     <!-- PHP Code Start -->
     <?php
     echo "Hello World!";                                            //My first comment
-    echo "<h1>Today naba is so far from me,I Love Her most!!!</h1>";
+    echo "<h1>First Heading!!!</h1>";
     $color = "red";       #My first comment + Variable
     echo "Today Is " . $color . " Day"; /*My first comment multiple line with concatenation*/
     $x = 5;
@@ -29,7 +29,7 @@
 
     test();
 
-    //Echo/Print
+    #Echo/Print
     echo "<br>I Love Coding";
     echo "<br><h1>I Love Coding</h1>";
     echo ("<br>I Love Coding");
@@ -40,7 +40,42 @@
     print("<br>I Love Coding");
     // print "<br>", "I ", " Love", " Coding";  //ERROR
 
+
+    #== vs ===
+    $x = '1';
+    $y = 1;
+    if ($x === $y) {            //=== check value + data type where, == check value
+        echo "<br>True";
+    } else {
+        echo "<br>Flase<br>";
+    }
+
+    # data type check [Var_dump()]
+
+    //$z = 'Toriqil';
+    //$z = true;
+    $z = [2, 3, 4, 5, 6];
+    var_dump($z);
+    $x = null;
+    var_dump($x);
+
+    #Single quatation vs double quatation
+    $y = 5;
+    echo "<br>Example is $y";
+    echo '<br>Example is $Z';
+
+    #string operation
+
+    $a = "Toriqul Loves PHP";
+    echo strlen($a);
+    echo str_word_count($a);
+    echo strrev($a);
+    echo strpos('Toriqul Loves PHP', 'PHP');
+    echo str_replace('PHP', 'Laravel', 'Toriqul Loves PHP');
+    echo ("<br>".rand(10, 100));
+
     ?>
+
     <!-- PHP Code End -->
 
 
