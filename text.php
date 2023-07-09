@@ -29,6 +29,7 @@
 
     test();
 
+
     #Echo/Print
     echo "<br>I Love Coding";
     echo "<br><h1>I Love Coding</h1>";
@@ -145,6 +146,42 @@
             echo "Your Favorite Food is Ice-cream";
             break;
     }
+
+    /*
+    #While loop
+    $x = 1;
+    while ($x <= 10) {
+        echo "<br>" . "$x I Love PHP using while loop" . "<br>";
+        $x++;
+    }
+    #do....while
+
+    $x = 11;
+    do {
+        echo "<br>" . "$x I Love PHP using Do....While loop" . "<br>";
+        $x++;
+    } while ($x <= 20);
+    #Foor loop
+    for ($x = 21; $x <= 30; $x++) {
+        echo "<br>" . "$x I Love PHP using For loop" . "<br>";
+    }
+
+    */
+    #Function
+    function familyMember($name, $Age = 50) //Default age
+    {
+        echo "<br>My name is $name and Age is $Age<br>";
+    }
+    familyMember("Toriqul", "10");
+    familyMember("Islam", 20); //don't need to declare data type
+    familyMember("Pranto",);
+
+    function add(float $a, float $b)
+    {
+        $sum = $a + $b;
+        return (int)($sum);
+    }
+    echo "<br>" . add(5.2, 7.2);
     ?>
 
 
