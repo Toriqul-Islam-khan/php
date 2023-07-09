@@ -117,7 +117,36 @@
     echo $text1; // Toriqul islam
     echo "<br>";
 
+    #Conditionals
+    $a = 10;            //If-else
+    $b = 12;
+    if ($a > $b) {
+        echo "A is greater than B";
+    } elseif ($a === $b) {
+        echo "A is equal to B";
+    } else {
+        echo "B is greater than A";
+    }
+    echo "<br>";
+
+    echo "<br>";
+    echo "Choose Food Item From Beriyani,Fuchka,Ice-cream!!!"; // Switch
+    echo "<br>";
+    $food = "Ice-cream";
+    echo "<br>";
+    switch ($food) {
+        case "Beriyani":
+            echo "Your Favorite Food is Beriyani";
+            break;
+        case "Fuchka":
+            echo "Your Favorite Food is Fuchka";
+            break;
+        case "Ice-cream":
+            echo "Your Favorite Food is Ice-cream";
+            break;
+    }
     ?>
+
 
     <!-- PHP Code End -->
 
