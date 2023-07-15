@@ -56,6 +56,7 @@
     //$z = 'Toriqil';
     //$z = true;
     $z = [2, 3, 4, 5, 6];
+    echo "<pre>";
     var_dump($z);
     $x = null;
     var_dump($x);
@@ -240,8 +241,11 @@
 
     //ternarry operatior
     $x = 4;
-
     echo $x == 5 ? "<br>" . 'Five' : "<br>" . 'Others';
+    //NUll coalising operator
+    echo $x ?? 'NULL';
+
+
     //isset() function
 
     if (isset($x)) {
@@ -250,7 +254,7 @@
         echo "<br>Variable is not exist!!";
     }
     // unset() function
-    echo "the value of" . '$x =' . "$x";
+    echo "the value of " . ' $x =' . " $x";
     unset($x);
     $x = '<br>toriqul';
     echo $x;
@@ -258,9 +262,10 @@
 
     function sum($a, $b)
     {
+        //jodi kortam unset($a);
         return $a + $b;
     }
-    echo "<br> Sum of a and b = " . sum(5, 4);
+    echo "<br>Sum of a and b = " . sum(5, 4);
 
 
 
