@@ -1,6 +1,6 @@
-<!-- 
-// echo "<pre>";
-// echo print_r($_POST);
+<?php
+echo "<pre>";
+echo print_r($_POST);
 // if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 //     $num1 = $_POST['number1'];
 //     $num2 = $_POST['number2'];
@@ -17,5 +17,4 @@
 //     elseif ($_POST['result'] == '/') {
 //         echo $num1 / $num2;
 //     }
-// } -->
-
+// }
