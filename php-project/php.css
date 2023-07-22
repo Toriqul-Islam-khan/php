@@ -1,0 +1,67 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: cadetblue;
+    text-align: center;
+}
+
+.first-form {
+    background-color: rgb(221, 213, 203);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+
+form,
+input {
+    margin-top: 100px;
+    gap: 40px;
+    margin-left: 20px;
+}
+
+.Login {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: burlywood;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.Login:hover {
+    background-color: rgb(219, 148, 54);
+}
+
+.working-page {
+    font-family: 'Times New Roman', Times, serif;
+    width: 20%;
+    height: 50%;
+    margin: auto;
+    padding: 50px;
+    background-color: coral;
+}
+
+.working-page ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.working-page ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.working-page ul li {
+    list-style: none;
+}
+
+.working-page ul li a:hover {
+
+    color: white;
+}
+
+
