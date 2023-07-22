@@ -80,17 +80,19 @@
     <table border="1">
         <thead>
             <tr>
-                <th>SL#</th>
+                <th>ID</th>
                 <th>Title</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
             <?php
-            foreach ($products as $pro) {
+            foreach ($products as $key => $pro) {
             ?>
                 <tr>
                     <td><?php echo $pro['Id'] ?></td>
                     <td><?php echo $pro['Title'] ?></td>
+                    <td><a href="delete.php?index=<?php echo $key ?>">Delete</a></td>
                 </tr>
             <?php } ?>
         </tbody>
